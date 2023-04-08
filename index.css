@@ -1,0 +1,44 @@
+/* Write your code here. */
+.infoClass {
+  background-color: #0b69ff;
+}
+.successClass {
+  background-color: #2dca73;
+}
+.warningClass {
+  background-color: #ffb800;
+}
+.errorClass {
+  background-color: #ff0b37;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30px;
+  padding: 6px;
+  padding-left: 50px;
+  width: 600px;
+  border-radius: 5px;
+  color: white;
+  font-family: "Roboto";
+  font-size: 24px;
+}
+.image {
+  width: 29px;
+  padding-right: 9px;
+}
+.heading {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 60px;
+  color: #0f172a;
+}
